@@ -34,7 +34,7 @@ The dataset used in the analysis consisits of 1000 rows and 17 columns.
 - Perform detailed SQL analysis to answer key business questions.
 - Extract actionable insights about sales, customers, and product lines.
 - Deliver recommendations based on data findings.
-- 
+  
 You are tasked with analyzing this Walmart Sales dataset using SQL. Here are the business questions for which you will write SQL queries to gain insights.
 
 Generic Question
@@ -79,7 +79,9 @@ Customer
 
 ### 🧹 Data Cleaning
 To ensure accurate analysis, several data cleaning steps were taken:
+
 I started by remaning my table and columns to ensure consistency
+
 I renamed table name from `walmartsalesdata.csv` to walmart_sales_data
 ```sql
 rename table `walmartsalesdata.csv` to walmart_sales_data;
@@ -148,7 +150,7 @@ This project successfully demonstrates the power of SQL in analyzing real-world 
 
 - SQL (MySQL)
 - Git & GitHub
-- Visual Studio Code / MySQL Workbench
+- MySQL Workbench
 
 ---
 
