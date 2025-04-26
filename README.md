@@ -161,3 +161,4 @@ This project successfully demonstrates the power of SQL in analyzing real-world 
 ---
 
 > 💡 *Feel free to fork the repo, raise issues, or submit pull requests if you want to contribute or suggest improvements!*
+
