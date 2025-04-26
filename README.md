@@ -8,7 +8,7 @@
 - [Dataset Overview](#dataset-overview)
 - [Project Objectives](#project-objectives)
 - [Data Cleaning](#data-cleaning)
-- [Data Exploration and Insight](#data-exploration-and-insight)
+- [Data Exploration and Insights](#data-exploration-and-insights)
 - [Recommendation](#recommendation)
 - [Conclusion](#conclusion)
 - [Tech Stack](#tech-stack)
@@ -33,7 +33,7 @@ The dataset contains transactional data from a Walmart store. It includes custom
 The dataset used in the analysis consists of 1000 rows and 17 columns.
 ![Screenshot 2025-04-25 walmart](https://github.com/user-attachments/assets/a5231583-434d-457b-9bd6-4233a08934e8).
 
-##  Project Objectives
+## 🎯 Project Objectives
 
 - Create and set up a relational database for the dataset.
 - Clean and transform raw data for clarity and accuracy.
@@ -128,7 +128,7 @@ rename table `walmartsalesdata.csv` to walmart_sales_data;
 
 ---
 
-## ✅ Recommendations
+## ✅ Recommendation
 
 1. **Focus Marketing Efforts on High-Performing Cities**  
    Cities like **City B** with the highest revenue should receive targeted campaigns and customer retention programs.
