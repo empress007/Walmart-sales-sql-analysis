@@ -11,6 +11,7 @@
 - [Data Exploration and Insight](#data-exploration-and-insight)
 - [Recommendation](#recommendation)
 - [Conclusion](#conclusion)
+- [Tech Stack](#tech-stack)
 
 
 ## 📌 Introduction
