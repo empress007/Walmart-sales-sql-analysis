@@ -2,14 +2,16 @@
 
 ![1388601](https://github.com/user-attachments/assets/ebca7d75-2857-43e0-9fb1-430742197afd)
 
-## 💻 Table of contents
-- [Introduction](#Introduction).
-- [Dataset Overview](#Dataset-Overview).
-- [Project Objectives](#Project-Objectives).
-- [Data Cleaning](#Data-Cleaning).
-- [Data Exploration and Insight](#Data-Exploration-and-insight).
-- [Recommendation](#Recommendation).
-- [Conclusion](#Conclusion).
+
+- ## 💻 Table of Contents
+- [Introduction](#introduction)
+- [Dataset Overview](#dataset-overview)
+- [Project Objectives](#project-objectives)
+- [Data Cleaning](#data-cleaning)
+- [Data Exploration and Insight](#data-exploration-and-insight)
+- [Recommendation](#recommendation)
+- [Conclusion](#conclusion)
+
 
 ### 📌 Introduction
 Retail giants like Walmart generate large amounts of transactional data every day. Analyzing this data helps in understanding customer behavior, product performance, and sales trends — leading to data-driven decisions that can improve revenue and customer satisfaction.
