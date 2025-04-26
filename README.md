@@ -3,7 +3,7 @@
 ![1388601](https://github.com/user-attachments/assets/ebca7d75-2857-43e0-9fb1-430742197afd)
 
 
-- ## 💻 Table of Contents
+# 💻 Table of Contents
 - [Introduction](#introduction)
 - [Dataset Overview](#dataset-overview)
 - [Project Objectives](#project-objectives)
@@ -13,11 +13,13 @@
 - [Conclusion](#conclusion)
 
 
-### 📌 Introduction
+## 📌 Introduction
+
 Retail giants like Walmart generate large amounts of transactional data every day. Analyzing this data helps in understanding customer behavior, product performance, and sales trends — leading to data-driven decisions that can improve revenue and customer satisfaction.
 This project focuses on using SQL to clean, transform, and analyze Walmart's sales data. The goal is to uncover insights that can assist in improving store operations, marketing strategies, and customer experience.
 
-### 📊 Dataset Overview
+## 📊 Dataset Overview
+
 The dataset contains transactional data from a Walmart store. It includes customer, sales, and product information over a period of time. Below are some of the key features present in the dataset:
 - **City** and **Branch** of purchase
 - **Customer Type**, **Gender**
@@ -26,11 +28,12 @@ The dataset contains transactional data from a Walmart store. It includes custom
 - **Date** and **Time** of purchase
 - **Payment Method**
 - **Customer Ratings**
-## 📋 Table Description: `walmart_sales_data`
-The dataset used in the analysis consisits of 1000 rows and 17 columns.
+### 📋 Table Description: `walmart_sales_data`
+The dataset used in the analysis consists of 1000 rows and 17 columns.
 ![Screenshot 2025-04-25 walmart](https://github.com/user-attachments/assets/a5231583-434d-457b-9bd6-4233a08934e8).
 
-###  Project Objectives
+##  Project Objectives
+
 - Create and set up a relational database for the dataset.
 - Clean and transform raw data for clarity and accuracy.
 - Perform detailed SQL analysis to answer key business questions.
@@ -79,10 +82,11 @@ Customer
 9. Which day of the week has the best avg ratings?
 10. Which day of the week has the best average ratings per branch?
 
-### 🧹 Data Cleaning
+## 🧹 Data Cleaning
+
 To ensure accurate analysis, several data cleaning steps were taken:
 
-I started by remaning my table and columns to ensure consistency
+I started by renaming my table and columns to ensure consistency.
 
 I renamed table name from `walmartsalesdata.csv` to walmart_sales_data
 ```sql
@@ -94,13 +98,13 @@ rename table `walmartsalesdata.csv` to walmart_sales_data;
 - Standardized column naming conventions (e.g., snake_case).
 - Removed potential formatting inconsistencies in spacing and case.
 
-### 🔍 Data Exploration and Insights
+## 🔍 Data Exploration and Insights
 
-## 📍 City & Branch Insights
+### 📍 City & Branch Insights
 - There are **3 unique cities**, each assigned a branch (A, B, C).
 - **City B** (and its corresponding branch) generated the **highest revenue**.
 
-## 🛒 Product Performance
+### 🛒 Product Performance
 - The dataset contains **6 unique product lines**.
 - **"Food and Beverages"** was the **top-selling product line** by quantity.
 - The product line that contributed the **most VAT** was **"Health and Beauty"**.
@@ -110,20 +114,20 @@ rename table `walmartsalesdata.csv` to walmart_sales_data;
 - The branch with the **highest average number of products sold** was **Branch C**.
 - The **most common payment method** was **Ewallet**.
 
-## 👥 Customer Insights
+### 👥 Customer Insights
 - Customers were categorized as **Members** or **Normal**.
 - **Member customers** generated the most revenue.
 - **Male customers** were slightly more frequent across all branches.
 - The highest number of ratings was given during the **Evening**.
 
-## ⭐ Ratings & Feedback
+### ⭐ Ratings & Feedback
 - **Friday** was the day with the **highest average ratings**.
 - The **"Electronic Accessories"** product line received the **highest average rating**.
 - Ratings were more frequently given in the **Evening**, across all branches.
 
 ---
 
-### ✅ Recommendations
+## ✅ Recommendations
 
 1. **Focus Marketing Efforts on High-Performing Cities**  
    Cities like **City B** with the highest revenue should receive targeted campaigns and customer retention programs.
@@ -142,7 +146,7 @@ rename table `walmartsalesdata.csv` to walmart_sales_data;
 
 ---
 
-### 🧾 Conclusion
+## 🧾 Conclusion
 
 This project successfully demonstrates the power of SQL in analyzing real-world retail data. Through structured querying and data transformation, we uncovered insights into customer behavior, product popularity, and sales performance. These insights can guide data-backed strategies to boost revenue, enhance customer satisfaction, and streamline business operations.
 
