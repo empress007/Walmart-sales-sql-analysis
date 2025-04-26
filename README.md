@@ -2,16 +2,16 @@
 
 ![1388601](https://github.com/user-attachments/assets/ebca7d75-2857-43e0-9fb1-430742197afd)
 
-## Table of contents
-- [introduction](#Introduction).
-- [Dataset Overview](#Dataset-Overwiew).
-- [Project Objectives](#Dataset-Objective).
+## 💻 Table of contents
+- [Introduction](#Introduction).
+- [Dataset Overview](#Dataset-Overview).
+- [Project Objectives](#Project-Objectives).
 - [Data Cleaning](#Data-Cleaning).
-- [Data exploration and Insight](#Data-exploration-and-insight).
+- [Data Exploration and Insight](#Data-Exploration-and-insight).
 - [Recommendation](#Recommendation).
 - [Conclusion](#Conclusion).
 
-## 📌Introduction
+### 📌 Introduction
 Retail giants like Walmart generate large amounts of transactional data every day. Analyzing this data helps in understanding customer behavior, product performance, and sales trends — leading to data-driven decisions that can improve revenue and customer satisfaction.
 This project focuses on using SQL to clean, transform, and analyze Walmart's sales data. The goal is to uncover insights that can assist in improving store operations, marketing strategies, and customer experience.
 
@@ -28,7 +28,7 @@ The dataset contains transactional data from a Walmart store. It includes custom
 The dataset used in the analysis consisits of 1000 rows and 17 columns.
 ![Screenshot 2025-04-25 walmart](https://github.com/user-attachments/assets/a5231583-434d-457b-9bd6-4233a08934e8).
 
-### Project Objectives
+###  Project Objectives
 - Create and set up a relational database for the dataset.
 - Clean and transform raw data for clarity and accuracy.
 - Perform detailed SQL analysis to answer key business questions.
@@ -92,7 +92,7 @@ rename table `walmartsalesdata.csv` to walmart_sales_data;
 - Standardized column naming conventions (e.g., snake_case).
 - Removed potential formatting inconsistencies in spacing and case.
 
-## 🔍 Data Exploration and Insights
+### 🔍 Data Exploration and Insights
 
 ## 📍 City & Branch Insights
 - There are **3 unique cities**, each assigned a branch (A, B, C).
